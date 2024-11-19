@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro de Receitas Online</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="fotos/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-container {
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        .carousel-item img {
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        h1, h2, footer {
+            text-align: center;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Livro de Receitas Online</h1>
+        <div>
+            <ul>
+                <li><a href="login.html">Login/cadastro</a></li>
+                <li><a href="Home.html">Livros de Receitas</a></li>
+                <li><a href="doces.html">Receitas Doces</a></li>
+                <li><a href="salgados.html">Receitas Salgadas</a></li>
+                <li><a href="carnes.html">Receitas com Carnes Vermelhas</a></li>
+                <li><a href="bebidas.html">Receitas de Bebidas</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <h1>Conheça algumas de nossas Receitas:</h1>
+
+    <div class="carousel-container">
+        <h2>Receitas Doces:</h2>
+        <div id="carousel-doces" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active mySlides">
+                    <img src="fotos/beijinho.jpg" class="d-block w-100" alt="Beijinho">
+                </div>
+                <div class="carousel-item mySlides">
+                    <img src="fotos/cheesecake.jpg" class="d-block w-100" alt="Cheesecake">
+                </div>
+            </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel-doces" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel-doces" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <h2>Receitas Salgadas:</h2>
+        <div id="carousel-salgados" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active mySlides">
+                    <img src="fotos 2/empadão de frango.jpg" class="d-block w-100" alt="Empadão">
+                </div>
+                <div class="carousel-item mySlides">
+                    <img src="fotos 2/acarajé.jpg" class="d-block w-100" alt="Acarajé">
+                </div>
+            </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel-salgados" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel-salgados" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <h2>Receitas com Carnes Vermelhas:</h2>
+        <div id="carousel-carnes" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active mySlides">
+                    <img src="fotos 4/carne de panela.jpg" class="d-block w-100" alt="Carne de Panela">
+                </div>
+                <div class="carousel-item mySlides">
+                    <img src="fotos 4/almondegas.jpg" class="d-block w-100" alt="Almôndegas">
+                </div>
+            </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel-carnes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel-carnes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <h2>Receitas de Bebidas:</h2>
+        <div id="carousel-bebidas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active mySlides">
+                    <img src="fotos 3/limonada.jpg" class="d-block w-100" alt="Limonada">
+                </div>
+                <div class="carousel-item mySlides">
+                    <img src="fotos 3/suco de maracujá.jpg" class="d-block w-100" alt="SUco de MAracujá">
+                </div>
+            </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel-bebidas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel-bebidas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <footer>página feita por Kamila Machado Malimpenso - 37721879</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

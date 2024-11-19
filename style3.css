@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(214, 223, 223);
+    color: #000;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(163, 125, 202);
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    margin: none;
+    padding-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    background-color: rgb(163, 125, 202);
+}
+li:hover{
+    background-color: rgb(111, 74, 148);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin: 25px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    transition: 05s;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+.card-text {
+    color: #666;
+    margin: 16px 0;
+}
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(163, 125, 202);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.card-btn:hover {
+    background-color: rgb(111, 74, 148);
+}
+footer{
+    background-color: rgb(163, 125, 202);
+    text-align: center;
+    padding: 40px;
+    list-style-type: none;
+    margin-top: 25px;
+}
